@@ -2,3 +2,39 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+h1 {
+  font-size: 2em;
+}
+
+img {
+  max-width: 400px;
+}
+
+div {
+  max-height: 4em;
+  max-width: 4em;
+  padding: 12em;
+  display: block;
+}
+
+@media screen and (min-width: 60em) {
+  h1 {
+    color: #333;
+    font-size: 3em;
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .locations {
+    display:inline-block;
+    column-count: 2;
+  }
+}
