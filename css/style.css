@@ -4,6 +4,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h1 {
   font-size: 2.5em;
   text-align: center;
@@ -21,6 +22,10 @@ div {
   display: flex;
   flex-flow: wrap;
   font-weight: bold;
+=======
+.title h1 {
+  font-size: 18px;
+>>>>>>> 5eaba737b8c7f350c972ec5195ee0b19fe825d76
 =======
 .title h1 {
   font-size: 18px;
@@ -46,6 +51,7 @@ div {
   margin: 0;
   box-sizing: border-box;
   position: absolute;
+<<<<<<< HEAD
 <<<<<<< HEAD
   padding: 1em;
   text-transform: capitalize;
@@ -89,6 +95,34 @@ img {
     margin: 5px;
   }
 }
+=======
+}
+
+.preview h1 {
+  font-size: 1em;
+}
+
+.preview img {
+  max-width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 575px) {
+
+  .preview  {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 2em;
+  }
+
+@media screen and (min-width: 991px) {
+>>>>>>> 5eaba737b8c7f350c972ec5195ee0b19fe825d76
 =======
 }
 
