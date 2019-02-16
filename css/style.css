@@ -4,12 +4,21 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.title {
+  margin: 1em;
+  font-family: sans-serif;
 }
 
 div {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
   font-weight: bold;
   text-align: center;
 }
@@ -29,21 +38,44 @@ img {
 .locations h1 {
   position: absolute;
   padding: 1em;
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 575px) {
-  h1 {
-    color: #333;
-    font-size: 3em;
+  .locations {
+    display:inline-block;
+    column-count: 2;
   }
 
   div {
-    flex: 1 auto; }
+    flex: 1 auto;
+  }
+
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  margin: 5px;
+}
 }
 
 @media screen and (min-width: 991px) {
   .locations {
     display:inline-block;
     column-count: 4;
+  }
+
+  div {
+    flex: 1 auto;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    margin: 5px;
   }
 }
