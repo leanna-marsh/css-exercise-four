@@ -1,6 +1,6 @@
 body {
   background-color: #dadada;
-  font-family: helvetica, sans-serif;
+  font-size: 10px;
 }
 
 h1 {
@@ -21,25 +21,21 @@ div {
   flex-flow: wrap;
   font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
-  padding: 1em;
 }
 
-.locations {
-  display: inline-block;
+div > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+img {
+  display: block;
   max-width: 100%;
+  max-height: 250px;
+  object-fit: cover;
 }
 
-.preview {
-  width: 100%;
-}
-
-.preview div {
-  float: left;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.locations h1 {
   position: absolute;
   padding: 1em;
   text-transform: capitalize;
